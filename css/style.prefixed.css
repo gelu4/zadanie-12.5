@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+body {
+  background-color: aquamarine;
+  margin: 0;
+  text-align: center; }
+
+.container {
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  width: 900px; }
+
+h1 {
+  color: darkcyan;
+  font-family: cursive; }
+
+.box {
+  margin: 20px;
+  height: 350px; }
+  .box h2, .box h3 {
+    color: lightslategray;
+    font-family: 'Alex Brush', sans-serif;
+    font-size: 55px; }
+
+.trigger, .tweet {
+  border: none;
+  border-radius: 5px;
+  background-color: khaki;
+  color: black;
+  display: block;
+  font-size: 24px;
+  width: 400px;
+  margin: 30px auto;
+  padding: 2px; }
+  .trigger:hover, .tweet:hover {
+    background-color: rgba(181, 184, 35, 0.76);
+    cursor: pointer; }
+
+.tweet {
+  text-align: center;
+  text-decoration: none; }
